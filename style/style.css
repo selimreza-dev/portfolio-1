@@ -144,13 +144,14 @@ nav{
 .hero-btn a.btn i{
     margin-right: 5px;
 }
-.hero-btn a.cv-download{
+a.cv-download{
     margin-right:30px;
     border:1px solid var(--orange);
     color:var(--white);
     transition: 0.2s;
+    font-size:14px;
 }
-.hero-btn a.cv-download:hover{
+a.cv-download:hover{
     border:1px solid var(--orange);
     color:var(--orange);
     background-color: var(--light-pink);
@@ -271,9 +272,64 @@ nav{
 }
 .edu-cv-download{
     text-align: center;
-    margin:20px 0;
+    margin:30px 0;
 }
 .edu-cv-download .btn i{
     margin-right:8px
 }
 /* End Education Area Style */
+
+/* Start Footer style */
+#footer{
+    background-color: var(--light-pink);
+    padding:80px 0;
+}
+.footer-wrap{
+    max-width: 80%;
+    margin:0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-social{
+    flex-basis: 50%;
+}
+.footer-social p{
+    margin:20px 0;
+}
+.footer-social p img{
+    width: 18px;
+    margin-right: 20px;
+}
+.footer-form{
+    flex-basis: 50%;
+}
+.footer-form h2{
+    margin-bottom: 20px;
+}
+.footer-form form input, .footer-form form textarea{
+    width: 100%;
+    margin:8px 0;
+    padding:15px;
+    font-size:14px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    color:var(--black);
+    color:var(--orange);
+    
+}
+.footer-form form input[type="submit"]{
+    width: 50%;
+    color:var(--white);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    border:1px solid var(--orange);
+}
+.footer-form form input[type="submit"]:hover{
+    background-color: var(--light-pink);
+    color:var(--orange);
+    border:1px solid var(--orange);
+}
