@@ -240,3 +240,40 @@ nav{
     line-height: 25px;
 }
 /* End Skills Area Style */
+
+/* Start Education Area Style */
+.edu-title{
+    margin-top:10px;
+    margin-bottom: 60px;
+}
+.edu-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.edu-aca-title{
+    margin-bottom: 30px;
+}
+.edu-aca-des{
+    margin:20px 0;
+}
+.edu-aca-des h4{
+    margin:10px 0;
+}
+.edu-aca-des p{
+    margin:10px 0;
+    padding:0 50px 0 0;
+    line-height: 25px;
+}
+.edu-aca-des hr{
+    color:var(--semi-dark);
+}
+.edu-cv-download{
+    text-align: center;
+    margin:20px 0;
+}
+.edu-cv-download .btn i{
+    margin-right:8px
+}
+/* End Education Area Style */
