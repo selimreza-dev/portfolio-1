@@ -10,8 +10,46 @@
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  /* font-weight: <weight>; */
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+/* Color Set */
+:root {
+  --orange: #FD6E0A;
+  --light-pink: #FFF8F3;
+  --black:#181818;
+  --white:#fff;
+  --semi-dark:#474747;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* End Global Style */
+
+nav{
+    max-width: 1140px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* header logo style */
+.header-logo h2{
+    font-size: 45px;
+    font-weight: 800;
+    color:var(--black);
+}
+.header-logo span{
+    color:var(--orange);
+}
+
+/* Header Menu Style */
+.header-menu ul{
+    display:flex;
 }
