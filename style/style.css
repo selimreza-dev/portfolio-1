@@ -40,6 +40,10 @@ li{
 h1,h2,h3,h4,h5,h6{
     color: var(--black);
 }
+p{
+    font-size:14px;
+    color:var(--semi-dark);
+}
 
 main{
     max-width: 80%;
@@ -175,3 +179,30 @@ nav{
     margin-bottom: -5px;
 }
 /* End Hero Area style */
+
+
+/* Start About Area Style */
+#about-area{
+    background-color: var(--light-pink);
+    margin:100px 0;
+    padding:100px;
+}
+.about-text{
+    text-align: center;
+}
+.about-text p{
+    margin: 30px 0;
+}
+.about-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-info h5:first-child{
+    color: var(--semi-dark);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+/* End About Area Style */
