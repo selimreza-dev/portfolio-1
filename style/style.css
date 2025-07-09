@@ -1,0 +1,17 @@
+/* Global style */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:  border-box;
+}
+/* Open Sans Font linked */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
